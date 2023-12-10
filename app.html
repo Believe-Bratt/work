@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+        <img src="images/logo.png" alt="banner">
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="app.html">App</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header> 
+<div class="background">
+    <div class="quiz-container">
+        <img src="images/personal.jpeg" alt="Personality">
+        <h1>Personality Quiz</h1>
+        <form id="quiz-form">
+            <div id="question-container"></div>
+            <button type="button" id="next-btn">Next</button>
+            <button type="submit" id="submit-btn" style="display: none;">Submit</button>
+        </form>
+        <div id="result-container" style="display: none;">
+            <h2>Your Personality Traits:</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    <br><br>
+    <div class="app-container">
+    <h1 style="font-size: 40px;">file downloader</h1><br>
+        <img src="images/file.jpeg" alt="file downloader"><br><br>
+        <div id="input-container">
+            <label for="file-url">File URL:</label>
+            <input type="text" id="file-url" placeholder="Enter file URL">
+            <button id="download-btn">Download</button>
+        </div>
+        <a id="download-link" download style="display: none;">Download Link</a>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <p>Design by Believe Teckk Copyright &copy; 2023</p>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
